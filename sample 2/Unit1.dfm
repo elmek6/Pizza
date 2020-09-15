@@ -1,0 +1,1278 @@
+object Form1: TForm1
+  Left = 150
+  Top = 46
+  Width = 917
+  Height = 746
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -19
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 24
+  object PageControl1: TPageControl
+    Left = 281
+    Top = 0
+    Width = 628
+    Height = 712
+    ActivePage = TabSheet4
+    Align = alClient
+    MultiLine = True
+    Style = tsButtons
+    TabIndex = 3
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = '1. Customer Info'
+      object Label9: TLabel
+        Left = 48
+        Top = 36
+        Width = 91
+        Height = 24
+        Caption = 'Credit note'
+      end
+      object Label10: TLabel
+        Left = 84
+        Top = 68
+        Width = 25
+        Height = 24
+        Caption = '9.7'
+      end
+      object Label11: TLabel
+        Left = 48
+        Top = 120
+        Width = 41
+        Height = 24
+        Caption = 'Total'
+      end
+      object Label12: TLabel
+        Left = 84
+        Top = 148
+        Width = 50
+        Height = 24
+        Caption = '1650$'
+      end
+      object Label15: TLabel
+        Left = 220
+        Top = 36
+        Width = 49
+        Height = 24
+        Caption = 'Credit'
+      end
+      object Label16: TLabel
+        Left = 256
+        Top = 64
+        Width = 20
+        Height = 24
+        Caption = '5$'
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Order'
+      ImageIndex = 1
+      object Label2: TLabel
+        Left = 0
+        Top = 0
+        Width = 35
+        Height = 24
+        Caption = 'Item'
+      end
+      object Label3: TLabel
+        Left = 0
+        Top = 248
+        Width = 55
+        Height = 24
+        Caption = 'Details'
+      end
+      object StringGrid1: TStringGrid
+        Left = 0
+        Top = 20
+        Width = 613
+        Height = 209
+        ColCount = 6
+        DefaultColWidth = 100
+        DefaultRowHeight = 50
+        FixedCols = 0
+        RowCount = 4
+        FixedRows = 0
+        TabOrder = 0
+      end
+      object StringGrid2: TStringGrid
+        Left = 0
+        Top = 268
+        Width = 613
+        Height = 361
+        ColCount = 6
+        DefaultColWidth = 100
+        DefaultRowHeight = 50
+        FixedCols = 0
+        RowCount = 7
+        FixedRows = 0
+        TabOrder = 1
+      end
+      object StaticText2: TStaticText
+        Left = 8
+        Top = 32
+        Width = 48
+        Height = 28
+        Caption = 'Pizza'
+        TabOrder = 2
+      end
+      object StaticText3: TStaticText
+        Left = 8
+        Top = 284
+        Width = 87
+        Height = 28
+        Caption = 'Greek Pie'
+        TabOrder = 3
+      end
+      object StaticText4: TStaticText
+        Left = 108
+        Top = 284
+        Width = 84
+        Height = 28
+        Caption = 'Multimeat'
+        TabOrder = 4
+      end
+      object StaticText5: TStaticText
+        Left = 212
+        Top = 284
+        Width = 89
+        Height = 28
+        Caption = 'Vegatable'
+        TabOrder = 5
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = '1 Pizza'
+      ImageIndex = 2
+      object Shape1: TShape
+        Left = 0
+        Top = 12
+        Width = 217
+        Height = 89
+        Shape = stEllipse
+      end
+      object Label6: TLabel
+        Left = 148
+        Top = 44
+        Width = 58
+        Height = 24
+        Caption = '2 Right'
+      end
+      object Label5: TLabel
+        Left = 12
+        Top = 44
+        Width = 44
+        Height = 24
+        Caption = '1 Left'
+      end
+      object Image2: TImage
+        Left = 108
+        Top = 12
+        Width = 109
+        Height = 89
+      end
+      object Image1: TImage
+        Left = 0
+        Top = 12
+        Width = 109
+        Height = 89
+      end
+      object Label4: TLabel
+        Left = 4
+        Top = 200
+        Width = 55
+        Height = 24
+        Caption = 'Details'
+      end
+      object Label13: TLabel
+        Left = 84
+        Top = 122
+        Width = 55
+        Height = 24
+        Caption = 'Whole'
+      end
+      object Bevel3: TBevel
+        Left = 56
+        Top = 104
+        Width = 109
+        Height = 61
+      end
+      object StringGrid3: TStringGrid
+        Left = 4
+        Top = 224
+        Width = 613
+        Height = 413
+        ColCount = 6
+        DefaultColWidth = 100
+        DefaultRowHeight = 50
+        FixedCols = 0
+        RowCount = 8
+        FixedRows = 0
+        TabOrder = 0
+      end
+      object StaticText6: TStaticText
+        Left = 4
+        Top = 240
+        Width = 97
+        Height = 28
+        Caption = 'Small Pie 4'
+        TabOrder = 1
+      end
+      object StaticText7: TStaticText
+        Left = 104
+        Top = 240
+        Width = 88
+        Height = 28
+        Caption = 'Medium 8'
+        TabOrder = 2
+      end
+      object StaticText8: TStaticText
+        Left = 212
+        Top = 240
+        Width = 77
+        Height = 28
+        Caption = 'Large 12'
+        TabOrder = 3
+      end
+      object StaticText9: TStaticText
+        Left = 4
+        Top = 288
+        Width = 98
+        Height = 28
+        Caption = 'White souc'
+        TabOrder = 4
+      end
+      object StaticText10: TStaticText
+        Left = 104
+        Top = 288
+        Width = 99
+        Height = 28
+        Caption = 'Red Souce'
+        TabOrder = 5
+      end
+      object StaticText11: TStaticText
+        Left = 204
+        Top = 288
+        Width = 103
+        Height = 28
+        Caption = 'RanchSouc'
+        TabOrder = 6
+      end
+      object StaticText12: TStaticText
+        Left = 304
+        Top = 240
+        Width = 95
+        Height = 28
+        Caption = 'XL 16" 16c'
+        TabOrder = 7
+      end
+      object StaticText13: TStaticText
+        Left = 408
+        Top = 240
+        Width = 83
+        Height = 28
+        Caption = 'Partie Pie'
+        TabOrder = 8
+      end
+      object StaticText14: TStaticText
+        Left = 508
+        Top = 240
+        Width = 45
+        Height = 28
+        Caption = 'Slice'
+        TabOrder = 9
+      end
+      object StaticText15: TStaticText
+        Left = 4
+        Top = 340
+        Width = 43
+        Height = 28
+        Caption = 'Pep.'
+        TabOrder = 10
+      end
+      object StaticText16: TStaticText
+        Left = 108
+        Top = 340
+        Width = 51
+        Height = 28
+        Caption = 'Saus.'
+        TabOrder = 11
+      end
+      object StaticText17: TStaticText
+        Left = 208
+        Top = 340
+        Width = 44
+        Height = 28
+        Caption = 'Ham'
+        TabOrder = 12
+      end
+      object StaticText18: TStaticText
+        Left = 308
+        Top = 340
+        Width = 58
+        Height = 28
+        Caption = 'Bacon'
+        TabOrder = 13
+      end
+      object StaticText19: TStaticText
+        Left = 408
+        Top = 340
+        Width = 60
+        Height = 28
+        Caption = 'Salami'
+        TabOrder = 14
+      end
+      object StaticText20: TStaticText
+        Left = 508
+        Top = 340
+        Width = 77
+        Height = 28
+        Caption = 'Capicola'
+        TabOrder = 15
+      end
+      object StaticText21: TStaticText
+        Left = 4
+        Top = 388
+        Width = 44
+        Height = 28
+        Caption = 'Gyro'
+        TabOrder = 16
+      end
+      object StaticText22: TStaticText
+        Left = 104
+        Top = 388
+        Width = 73
+        Height = 28
+        Caption = 'Chicken'
+        TabOrder = 17
+      end
+      object StaticText23: TStaticText
+        Left = 208
+        Top = 388
+        Width = 83
+        Height = 28
+        Caption = 'Meatballs'
+        TabOrder = 18
+      end
+      object StaticText24: TStaticText
+        Left = 308
+        Top = 388
+        Width = 93
+        Height = 28
+        Caption = 'Anchovies'
+        TabOrder = 19
+      end
+      object StaticText25: TStaticText
+        Left = 408
+        Top = 388
+        Width = 85
+        Height = 28
+        Caption = 'Crabmeat'
+        TabOrder = 20
+      end
+      object StaticText26: TStaticText
+        Left = 508
+        Top = 388
+        Width = 64
+        Height = 28
+        Caption = 'Shrimp'
+        TabOrder = 21
+      end
+      object StaticText27: TStaticText
+        Left = 4
+        Top = 440
+        Width = 100
+        Height = 28
+        Caption = 'No Cheese'
+        TabOrder = 22
+      end
+      object StaticText28: TStaticText
+        Left = 104
+        Top = 440
+        Width = 70
+        Height = 28
+        Caption = 'Cheese'
+        TabOrder = 23
+      end
+      object StaticText29: TStaticText
+        Left = 208
+        Top = 440
+        Width = 41
+        Height = 28
+        Caption = 'Feta'
+        TabOrder = 24
+      end
+      object StaticText30: TStaticText
+        Left = 308
+        Top = 440
+        Width = 78
+        Height = 28
+        Caption = 'Chedder'
+        TabOrder = 25
+      end
+      object StaticText31: TStaticText
+        Left = 408
+        Top = 440
+        Width = 60
+        Height = 28
+        Caption = 'Ricotta'
+        TabOrder = 26
+      end
+      object StaticText32: TStaticText
+        Left = 508
+        Top = 440
+        Width = 86
+        Height = 28
+        Caption = 'Fontinella'
+        TabOrder = 27
+      end
+      object StaticText33: TStaticText
+        Left = 4
+        Top = 492
+        Width = 95
+        Height = 28
+        Caption = 'Mushroom'
+        TabOrder = 28
+      end
+      object StaticText34: TStaticText
+        Left = 104
+        Top = 492
+        Width = 40
+        Height = 28
+        Caption = 'G.P.'
+        TabOrder = 29
+      end
+      object StaticText35: TStaticText
+        Left = 208
+        Top = 492
+        Width = 35
+        Height = 28
+        Caption = 'On.'
+        TabOrder = 30
+      end
+      object StaticText36: TStaticText
+        Left = 308
+        Top = 492
+        Width = 41
+        Height = 28
+        Caption = 'B.O.'
+        TabOrder = 31
+      end
+      object StaticText37: TStaticText
+        Left = 408
+        Top = 492
+        Width = 48
+        Height = 28
+        Caption = 'Tom.'
+        TabOrder = 32
+      end
+      object StaticText38: TStaticText
+        Left = 508
+        Top = 492
+        Width = 40
+        Height = 28
+        Caption = 'H.P.'
+        TabOrder = 33
+      end
+      object StaticText39: TStaticText
+        Left = 4
+        Top = 536
+        Width = 42
+        Height = 28
+        Caption = 'RRP'
+        TabOrder = 34
+      end
+      object StaticText40: TStaticText
+        Left = 108
+        Top = 536
+        Width = 73
+        Height = 28
+        Caption = 'Spinach'
+        TabOrder = 35
+      end
+      object StaticText41: TStaticText
+        Left = 208
+        Top = 536
+        Width = 83
+        Height = 28
+        Caption = 'Artichoke'
+        TabOrder = 36
+      end
+      object StaticText42: TStaticText
+        Left = 308
+        Top = 536
+        Width = 76
+        Height = 28
+        Caption = 'Broccolli'
+        TabOrder = 37
+      end
+      object StaticText43: TStaticText
+        Left = 408
+        Top = 536
+        Width = 97
+        Height = 28
+        Caption = 'Pine Apple'
+        TabOrder = 38
+      end
+      object StaticText44: TStaticText
+        Left = 508
+        Top = 536
+        Width = 38
+        Height = 28
+        Caption = 'F.F.'
+        TabOrder = 39
+      end
+      object Edit1: TEdit
+        Left = 228
+        Top = 220
+        Width = 121
+        Height = 32
+        TabOrder = 40
+        Text = 'radio'
+      end
+      object Edit2: TEdit
+        Left = 228
+        Top = 324
+        Width = 121
+        Height = 32
+        TabOrder = 41
+        Text = 'options'
+      end
+      object StaticText45: TStaticText
+        Left = 304
+        Top = 288
+        Width = 47
+        Height = 28
+        Caption = 'Taco'
+        TabOrder = 42
+      end
+      object StaticText46: TStaticText
+        Left = 4
+        Top = 592
+        Width = 87
+        Height = 28
+        Caption = 'Thin crust'
+        TabOrder = 43
+      end
+      object StaticText47: TStaticText
+        Left = 408
+        Top = 288
+        Width = 86
+        Height = 28
+        Caption = 'No souce'
+        TabOrder = 44
+      end
+      object StaticText48: TStaticText
+        Left = 508
+        Top = 288
+        Width = 106
+        Height = 28
+        Caption = '-                  -'
+        TabOrder = 45
+      end
+      object StaticText49: TStaticText
+        Left = 108
+        Top = 592
+        Width = 50
+        Height = 28
+        Caption = 'Thick'
+        TabOrder = 46
+      end
+      object StaticText50: TStaticText
+        Left = 208
+        Top = 592
+        Width = 90
+        Height = 28
+        Caption = 'Well done'
+        TabOrder = 47
+      end
+      object StaticText51: TStaticText
+        Left = 308
+        Top = 592
+        Width = 77
+        Height = 28
+        Caption = 'Don'#39't cut'
+        TabOrder = 48
+      end
+      object StaticText52: TStaticText
+        Left = 408
+        Top = 592
+        Width = 106
+        Height = 28
+        Caption = '-                  -'
+        TabOrder = 49
+      end
+      object StaticText53: TStaticText
+        Left = 512
+        Top = 592
+        Width = 106
+        Height = 28
+        Caption = '-                  -'
+        TabOrder = 50
+      end
+      object BitBtn3: TBitBtn
+        Left = 272
+        Top = 12
+        Width = 161
+        Height = 65
+        Caption = 'MSG (keyboard)'
+        TabOrder = 51
+      end
+      object BitBtn4: TBitBtn
+        Left = 272
+        Top = 96
+        Width = 161
+        Height = 65
+        Caption = 'Clear all item'
+        TabOrder = 52
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Customers'
+      ImageIndex = 3
+      object DBGrid1: TDBGrid
+        Left = 4
+        Top = 92
+        Width = 545
+        Height = 377
+        DataSource = DataSource1
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -19
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = []
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'Personel'
+      ImageIndex = 4
+      object PageControl2: TPageControl
+        Left = 12
+        Top = 32
+        Width = 465
+        Height = 537
+        ActivePage = TabSheet6
+        TabIndex = 0
+        TabOrder = 0
+        object TabSheet6: TTabSheet
+          Caption = 'Hogie'
+          object SpeedButton1: TSpeedButton
+            Left = 20
+            Top = 216
+            Width = 85
+            Height = 22
+            Caption = '1/2'
+          end
+          object SpeedButton2: TSpeedButton
+            Left = 112
+            Top = 216
+            Width = 85
+            Height = 22
+            Caption = 'W'
+          end
+          object SpeedButton3: TSpeedButton
+            Left = 20
+            Top = 444
+            Width = 85
+            Height = 22
+            Caption = '+'
+          end
+          object SpeedButton4: TSpeedButton
+            Left = 112
+            Top = 444
+            Width = 85
+            Height = 22
+            Caption = '-'
+          end
+          object ListView1: TListView
+            Left = 20
+            Top = 44
+            Width = 413
+            Height = 150
+            Columns = <
+              item
+                Caption = 'Hoagie'
+              end
+              item
+                Caption = 'xx'
+              end>
+            Items.Data = {
+              240000000100000000000000FFFFFFFFFFFFFFFF000000000000000007497461
+              6C69616E}
+            TabOrder = 0
+            ViewStyle = vsReport
+          end
+          object ListView2: TListView
+            Left = 20
+            Top = 252
+            Width = 417
+            Height = 181
+            Columns = <
+              item
+                Caption = 'Hoagie'
+              end
+              item
+                Caption = 'xx'
+              end>
+            Items.Data = {
+              7F0100000D00000000000000FFFFFFFFFFFFFFFF0000000000000000054F6E69
+              6F6E00000000FFFFFFFFFFFFFFFF00000000000000000C477265656E20706170
+              65727300000000FFFFFFFFFFFFFFFF00000000000000000B426C61636B4F6C69
+              76657300000000FFFFFFFFFFFFFFFF00000000000000000348616D00000000FF
+              FFFFFFFFFFFFFF0000000000000000075361757361676500000000FFFFFFFFFF
+              FFFFFF0000000000000000094D757368726F6F6D7300000000FFFFFFFFFFFFFF
+              FF00000000000000000941636E686F7669657300000000FFFFFFFFFFFFFFFF00
+              0000000000000008437261626D65617400000000FFFFFFFFFFFFFFFF00000000
+              0000000009486F7420706170657200000000FFFFFFFFFFFFFFFF000000000000
+              000008546F6D61746F657300000000FFFFFFFFFFFFFFFF000000000000000007
+              4C65727275636500000000FFFFFFFFFFFFFFFF00000000000000000E43686564
+              6465722063686565736500000000FFFFFFFFFFFFFFFF000000000000000000}
+            TabOrder = 1
+            ViewStyle = vsList
+          end
+        end
+        object TabSheet7: TTabSheet
+          Caption = 'Pizza'
+          ImageIndex = 1
+          object SpeedButton11: TSpeedButton
+            Left = 20
+            Top = 24
+            Width = 73
+            Height = 29
+            GroupIndex = 1
+            Caption = 'S'
+          end
+          object SpeedButton12: TSpeedButton
+            Left = 92
+            Top = 24
+            Width = 73
+            Height = 29
+            GroupIndex = 1
+            Caption = 'M'
+          end
+          object SpeedButton13: TSpeedButton
+            Left = 164
+            Top = 24
+            Width = 73
+            Height = 29
+            GroupIndex = 1
+            Caption = 'L'
+          end
+          object SpeedButton14: TSpeedButton
+            Left = 236
+            Top = 24
+            Width = 73
+            Height = 29
+            GroupIndex = 1
+            Caption = 'XL'
+          end
+          object SpeedButton15: TSpeedButton
+            Left = 308
+            Top = 24
+            Width = 73
+            Height = 29
+            GroupIndex = 1
+            Caption = 'P.P.'
+          end
+          object SpeedButton16: TSpeedButton
+            Left = 20
+            Top = 60
+            Width = 93
+            Height = 25
+            GroupIndex = 1
+            Caption = 'Thin'
+          end
+          object SpeedButton17: TSpeedButton
+            Left = 124
+            Top = 60
+            Width = 93
+            Height = 25
+            GroupIndex = 1
+            Down = True
+            Caption = 'Normal'
+          end
+          object SpeedButton18: TSpeedButton
+            Left = 228
+            Top = 60
+            Width = 93
+            Height = 25
+            GroupIndex = 1
+            Caption = 'Thick'
+          end
+          object SpeedButton19: TSpeedButton
+            Left = 20
+            Top = 456
+            Width = 93
+            Height = 29
+            GroupIndex = 1
+            Caption = 'Left Side'
+          end
+          object SpeedButton20: TSpeedButton
+            Left = 120
+            Top = 456
+            Width = 93
+            Height = 29
+            GroupIndex = 1
+            Caption = 'Right'
+          end
+          object SpeedButton21: TSpeedButton
+            Left = 216
+            Top = 456
+            Width = 93
+            Height = 29
+            GroupIndex = 1
+            Caption = 'All'
+          end
+          object ListView6: TListView
+            Left = 20
+            Top = 124
+            Width = 417
+            Height = 317
+            Checkboxes = True
+            Columns = <
+              item
+                Caption = 'Hoagie'
+              end
+              item
+                Caption = 'xx'
+              end>
+            GridLines = True
+            Items.Data = {
+              240100000C00000000000000FFFFFFFFFFFFFFFF0000000000000000014F0000
+              0000FFFFFFFFFFFFFFFF000000000000000002475000000000FFFFFFFFFFFFFF
+              FF000000000000000002424F00000000FFFFFFFFFFFFFFFF0000000000000000
+              0348616D00000000FFFFFFFFFFFFFFFF0000000000000000015300000000FFFF
+              FFFFFFFFFFFF0000000000000000044D75736800000000FFFFFFFFFFFFFFFF00
+              000000000000000441636E6800000000FFFFFFFFFFFFFFFF0000000000000000
+              02485000000000FFFFFFFFFFFFFFFF00000000000000000350657000000000FF
+              FFFFFFFFFFFFFF000000000000000003546F6D00000000FFFFFFFFFFFFFFFF00
+              00000000000000034C657200000000FFFFFFFFFFFFFFFF000000000000000004
+              43686564}
+            TabOrder = 0
+          end
+        end
+        object TabSheet8: TTabSheet
+          Caption = 'Other'
+          ImageIndex = 2
+        end
+        object TabSheet9: TTabSheet
+          Caption = 'Order ...'
+          ImageIndex = 3
+          object SpeedButton5: TSpeedButton
+            Left = 20
+            Top = 24
+            Width = 93
+            Height = 29
+            GroupIndex = 1
+            Caption = 'Pick Up'
+          end
+          object SpeedButton6: TSpeedButton
+            Left = 136
+            Top = 24
+            Width = 93
+            Height = 29
+            GroupIndex = 1
+            Caption = 'Delivery'
+          end
+          object SpeedButton7: TSpeedButton
+            Left = 20
+            Top = 100
+            Width = 93
+            Height = 29
+            GroupIndex = 2
+            Caption = 'Cash'
+          end
+          object SpeedButton8: TSpeedButton
+            Left = 136
+            Top = 100
+            Width = 113
+            Height = 29
+            GroupIndex = 2
+            Caption = 'Credit Card'
+          end
+          object SpeedButton9: TSpeedButton
+            Left = 20
+            Top = 200
+            Width = 137
+            Height = 29
+            GroupIndex = 3
+            Caption = 'When Ready'
+          end
+          object SpeedButton10: TSpeedButton
+            Left = 20
+            Top = 232
+            Width = 137
+            Height = 29
+            GroupIndex = 3
+            Caption = 'Time Order'
+          end
+          object Bevel1: TBevel
+            Left = 20
+            Top = 64
+            Width = 417
+            Height = 13
+            Shape = bsBottomLine
+          end
+          object Bevel2: TBevel
+            Left = 20
+            Top = 140
+            Width = 417
+            Height = 13
+            Shape = bsBottomLine
+          end
+          object Label1: TLabel
+            Left = 236
+            Top = 28
+            Width = 22
+            Height = 24
+            Caption = '=>'
+          end
+          object StaticText1: TStaticText
+            Left = 20
+            Top = 164
+            Width = 417
+            Height = 28
+            AutoSize = False
+            BevelKind = bkSoft
+            Caption = 'Minumum Delivery Time : 45 Minutes'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clRed
+            Font.Height = -19
+            Font.Name = 'MS Sans Serif'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DateTimePicker1: TDateTimePicker
+            Left = 20
+            Top = 268
+            Width = 186
+            Height = 32
+            CalAlignment = dtaLeft
+            Date = 38783.046270162
+            Time = 38783.046270162
+            DateFormat = dfShort
+            DateMode = dmComboBox
+            Kind = dtkDate
+            ParseInput = False
+            TabOrder = 1
+          end
+          object MaskEdit1: TMaskEdit
+            Left = 20
+            Top = 304
+            Width = 120
+            Height = 32
+            EditMask = '!90:00;1;_'
+            MaxLength = 5
+            TabOrder = 2
+            Text = '  :  '
+          end
+          object Memo1: TMemo
+            Left = 236
+            Top = 264
+            Width = 185
+            Height = 181
+            Lines.Strings = (
+              '11:45'
+              '11:45'
+              '12:00'
+              '12:00'
+              '12:15'
+              '12:30'
+              '16:00')
+            TabOrder = 3
+          end
+        end
+        object TabSheet10: TTabSheet
+          Caption = 'Charge'
+          ImageIndex = 4
+          object Label7: TLabel
+            Left = 108
+            Top = 108
+            Width = 102
+            Height = 24
+            Caption = 'Change line'
+          end
+          object Label8: TLabel
+            Left = 108
+            Top = 188
+            Width = 105
+            Height = 24
+            Caption = 'Change total'
+          end
+          object BitBtn6: TBitBtn
+            Left = 224
+            Top = 456
+            Width = 201
+            Height = 33
+            Caption = 'Charge'
+            TabOrder = 0
+          end
+          object Memo4: TMemo
+            Left = 116
+            Top = 352
+            Width = 309
+            Height = 89
+            Lines.Strings = (
+              'Note')
+            TabOrder = 1
+          end
+          object MaskEdit2: TMaskEdit
+            Left = 224
+            Top = 100
+            Width = 120
+            Height = 32
+            EditMask = '!99999:99;1_$'
+            MaxLength = 10
+            TabOrder = 2
+            Text = '     :  _$'
+          end
+          object MaskEdit3: TMaskEdit
+            Left = 224
+            Top = 180
+            Width = 120
+            Height = 32
+            EditMask = '!99999:99;1_$'
+            MaxLength = 10
+            TabOrder = 3
+            Text = '     :  _$'
+          end
+        end
+      end
+    end
+    object TabSheet11: TTabSheet
+      Caption = 'TabSheet11'
+      ImageIndex = 5
+      object ListView4: TListView
+        Left = 12
+        Top = 32
+        Width = 413
+        Height = 150
+        Columns = <
+          item
+            Caption = 'Date'
+          end
+          item
+            Caption = 'Sn.'
+          end
+          item
+            Caption = 'Who'
+          end>
+        Items.Data = {
+          D90000000400000000000000FFFFFFFFFFFFFFFF02000000000000000A30362F
+          30332F32303036023139075069636B2D557000000000FFFFFFFFFFFFFFFF0200
+          0000000000000A30362F30332F323030360232300C4D617474202831322E3430
+          2900000000FFFFFFFFFFFFFFFF02000000000000000A30362F30332F32303036
+          0232311257616974696E67203330204D696E7574657300000000FFFFFFFFFFFF
+          FFFF02000000000000000A30362F30332F3230303602323210416E6479203131
+          2E34302054616B6564FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+        TabOrder = 0
+        ViewStyle = vsReport
+      end
+      object ListView5: TListView
+        Left = 267
+        Top = 32
+        Width = 353
+        Height = 533
+        Columns = <
+          item
+            Caption = 'Hoagie'
+          end
+          item
+            Caption = 'xx'
+          end
+          item
+          end>
+        Items.Data = {
+          8E0200001300000000000000FFFFFFFFFFFFFFFF02000000000000000D30362F
+          30332F3036207B31397D0653616D20522E0000000000FFFFFFFFFFFFFFFF0000
+          0000000000000000000000FFFFFFFFFFFFFFFF0100000000000000044E616D65
+          05446176696400000000FFFFFFFFFFFFFFFF01000000000000000550686F6E65
+          0D3136343620353135203138383200000000FFFFFFFFFFFFFFFF010000000000
+          0000074164647265737310486967686C616E64206176652035323600000000FF
+          FFFFFFFFFFFFFF00000000000000000000000000FFFFFFFFFFFFFFFF02000000
+          000000000D285329205369656E61205069650004392E353000000000FFFFFFFF
+          FFFFFFFF02000000000000000A202020202D20422E4F2E012D012D00000000FF
+          FFFFFFFFFFFFFF02000000000000000C202020202D204F6E696F6E73012D012D
+          00000000FFFFFFFFFFFFFFFF02000000000000000F202020202B20416E63686F
+          76696573012B04302E353500000000FFFFFFFFFFFFFFFF000000000000000000
+          00000000FFFFFFFFFFFFFFFF02000000000000000B28BD29204974616C69616E
+          0004342E353000000000FFFFFFFFFFFFFFFF0200000000000000072857292048
+          616D0004372E353000000000FFFFFFFFFFFFFFFF000000000000000000000000
+          00FFFFFFFFFFFFFFFF00000000000000000000000000FFFFFFFFFFFFFFFF0000
+          0000000000000000000000FFFFFFFFFFFFFFFF00000000000000000000000000
+          FFFFFFFFFFFFFFFF0200000000000000000354617804312E313000000000FFFF
+          FFFFFFFFFFFF0200000000000000000E546F74616C205F5F5F5F5F5F5F3A0532
+          332E3135FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+        TabOrder = 1
+        ViewStyle = vsReport
+      end
+      object BitBtn1: TBitBtn
+        Left = 12
+        Top = 196
+        Width = 81
+        Height = 33
+        Caption = 'Cancel'
+        TabOrder = 2
+      end
+      object BitBtn2: TBitBtn
+        Left = 100
+        Top = 196
+        Width = 81
+        Height = 33
+        Caption = 'Change'
+        TabOrder = 3
+      end
+      object BitBtn5: TBitBtn
+        Left = 12
+        Top = 256
+        Width = 169
+        Height = 33
+        Caption = 'Take this order'
+        TabOrder = 4
+      end
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 281
+    Height = 712
+    Align = alLeft
+    TabOrder = 1
+    object ListView3: TListView
+      Left = 4
+      Top = 24
+      Width = 265
+      Height = 533
+      Columns = <
+        item
+          Caption = 'Hoagie'
+        end
+        item
+          Caption = 'xx'
+        end
+        item
+        end>
+      Items.Data = {
+        8E0200001300000000000000FFFFFFFFFFFFFFFF02000000000000000D30362F
+        30332F3036207B31397D0653616D20522E0000000000FFFFFFFFFFFFFFFF0000
+        0000000000000000000000FFFFFFFFFFFFFFFF0100000000000000044E616D65
+        05446176696400000000FFFFFFFFFFFFFFFF01000000000000000550686F6E65
+        0D3136343620353135203138383200000000FFFFFFFFFFFFFFFF010000000000
+        0000074164647265737310486967686C616E64206176652035323600000000FF
+        FFFFFFFFFFFFFF00000000000000000000000000FFFFFFFFFFFFFFFF02000000
+        000000000D285329205369656E61205069650004392E353000000000FFFFFFFF
+        FFFFFFFF02000000000000000A202020202D20422E4F2E012D012D00000000FF
+        FFFFFFFFFFFFFF02000000000000000C202020202D204F6E696F6E73012D012D
+        00000000FFFFFFFFFFFFFFFF02000000000000000F202020202B20416E63686F
+        76696573012B04302E353500000000FFFFFFFFFFFFFFFF000000000000000000
+        00000000FFFFFFFFFFFFFFFF02000000000000000B28BD29204974616C69616E
+        0004342E353000000000FFFFFFFFFFFFFFFF0200000000000000072857292048
+        616D0004372E353000000000FFFFFFFFFFFFFFFF000000000000000000000000
+        00FFFFFFFFFFFFFFFF00000000000000000000000000FFFFFFFFFFFFFFFF0000
+        0000000000000000000000FFFFFFFFFFFFFFFF00000000000000000000000000
+        FFFFFFFFFFFFFFFF0200000000000000000354617804312E313000000000FFFF
+        FFFFFFFFFFFF0200000000000000000E546F74616C205F5F5F5F5F5F5F3A0532
+        332E3135FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      TabOrder = 0
+      ViewStyle = vsReport
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSet1
+    Left = 312
+    Top = 64
+  end
+  object ClientDataSet1: TClientDataSet
+    Active = True
+    Aggregates = <>
+    AggregatesActive = True
+    FileName = 'D:\fixed\pl\restaurant\xml ornek calismasi\menu.xml'
+    FieldDefs = <
+      item
+        Name = 'Name'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 24
+      end
+      item
+        Name = 'Capital'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 24
+      end
+      item
+        Name = 'Continent'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 24
+      end
+      item
+        Name = 'Area'
+        Attributes = [faUnNamed]
+        DataType = ftFloat
+      end
+      item
+        Name = 'Population'
+        Attributes = [faUnNamed]
+        DataType = ftFloat
+      end>
+    IndexDefs = <>
+    PacketRecords = 1
+    Params = <>
+    StoreDefs = True
+    Left = 344
+    Top = 64
+    Data = {
+      1D0500009619E0BD0100000018000000050015000000030000003D01044E616D
+      650100490010000100055749445448020002001800074361706974616C010049
+      001000010005574944544802000200180009436F6E74696E656E740100490010
+      000100055749445448020002001800044172656108000400100000000A506F70
+      756C6174696F6E080004001000000004000A4348414E47455F4C4F4704008200
+      1800000001000000000000000200000013000000000000000400000002000000
+      0000000002000000140000000000000004000000080000000000000002000000
+      0400000000000000020000000600000000000000020000001500000003000000
+      080000000D44454641554C545F4F524445520400820001000000010000000B50
+      52494D4152595F4B4559040082000100000001000000044C4349440200010009
+      0802000009417267656E74696E610C4275656E6F732041697265730D536F7574
+      6820416D6572696361000000806B31454100000030BECD7E4102000007426F6C
+      69766961064C612050617A0D536F75746820416D6572696361000000004FC330
+      4100000000E8D85B41010000064272617A696C0842726173696C69610D536F75
+      746820416D657269636100000080DB3B604100000000D8EDA141020000064361
+      6E616461064F74746177610D4E6F72746820416D6572696361000000602A0763
+      4100000000BA457941000000054368696C650853616E746961676F0D536F7574
+      6820416D6572696361000000009E19274100000000502D694102000008436F6C
+      6F6D626961064261676F74610D536F75746820416D657269636100000000DB60
+      314100000000A4787F41000000044375626106486176616E610D4E6F72746820
+      416D657269636100000000C0F5FB4000000000C8376441020000074563756164
+      6F7205517569746F0D536F75746820416D65726963610000000038CD1B410000
+      0000C83764410000000B456C2053616C7661646F720C53616E2053616C766164
+      6F720D4E6F72746820416D6572696361000000004060D44000000000C8375441
+      00000006477579616E610A47656F726765746F776E0D536F75746820416D6572
+      69636100000000C83D0A4100000000006A2841000000074A616D61696361084B
+      696E6773746F6E0D4E6F72746820416D6572696361000000000050C640000000
+      00D0124341000000064D657869636F0B4D657869636F20436974790D4E6F7274
+      6820416D6572696361000000004C043E4100000000B71F9541000000094E6963
+      617261677561074D616E616775610D4E6F72746820416D657269636100000000
+      C0F700410000000030C14D41000000085061726167756179084173756E63696F
+      6E0D536F75746820416D657269636100000000C0D0184100000000C8C6514100
+      00000450657275044C696D610D536F75746820416D6572696361000000005F9C
+      3341000000007099744100000018556E6974656420537461746573206F662041
+      6D65726963610A57617368696E67746F6E0D4E6F72746820416D657269636100
+      000040D7DB614100000000FBB4AD4100000007557275677561790A4D6F6E7465
+      766964656F0D536F75746820416D657269636100000000608005410000000048
+      E746410000000956656E657A75656C6107436172616361730D536F7574682041
+      6D6572696361000000005ED52B410000000092C9724104500103656565036161
+      6104400103616161036173640100080000084272617A696C2B2B084272617369
+      6C69610D536F75746820416D657269636100000080DB3B604100000000D8EDA1
+      41}
+  end
+end
